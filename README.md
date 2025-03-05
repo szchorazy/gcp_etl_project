@@ -1,5 +1,5 @@
 # GCP Data Engineering project
-The aim of this project is to analyze the Supply Chain DataSet used by DataCo Global. 
+The aim of this project is to analyze the [Supply Chain DataSet used by DataCo Global](https://data.mendeley.com/datasets/8gx2fvg2k6/5). 
 The supply chain plays a vital role for the company. Understanding which products generate the highest profit, which categories are most frequently ordered, and the reasons behind late deliveries can provide valuable insights. 
 This information enables the company to take proactive measures to address these issues effectively.
 
