@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from mage_ai.settings.repo import get_repo_path
 from mage_ai.io.bigquery import BigQuery
 from mage_ai.io.config import ConfigFileLoader
