@@ -77,6 +77,10 @@ Plus hundreds of enterprise-class features, infrastructure innovations, and magi
 
 * Transform the data: select `Transformer -> Python -> Generic (no template)`
 
+I decided to use dimensional data modeling. This approach organizes data into fact and dimension tables to simplify analysis and improve performance. Fact tables store quantitative data, such as sales, while dimension tables contain descriptive information, like product names. By structuring data in this way, it becomes easier to create insightful reports and run efficient queries
+
+![Zrzut ekranu 2025-03-05 192912](https://github.com/user-attachments/assets/82453830-b15f-43b4-92cf-5b39733e4075)
+
 * Run uber_transformation block
 
 * Select `Data exporter -> Python -> Google BigQuery`
