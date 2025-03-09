@@ -81,7 +81,7 @@ I decided to use dimensional data modeling. This approach organizes data into fa
 
 ![Zrzut ekranu 2025-03-05 192912](https://github.com/user-attachments/assets/82453830-b15f-43b4-92cf-5b39733e4075)
 
-* Run uber_transformation block
+* Run transformation block
 
 * Select `Data exporter -> Python -> Google BigQuery`
 
@@ -89,13 +89,13 @@ I decided to use dimensional data modeling. This approach organizes data into fa
 
 ![Zrzut ekranu 2025-03-05 205738](https://github.com/user-attachments/assets/743fc2c5-8b22-4d62-9cd3-b8f7c52c0996)
 
-* Create a Dataset in BQ, run uber_bigquery_load block. Load all tables to BQ
+* Create a Dataset in BQ, run load block. Load all tables to BQ
 
 ![Zrzut ekranu 2024-12-19 194608](https://github.com/user-attachments/assets/f022b564-d69c-4447-a8f1-ae820571d624)
 
 ![Zrzut ekranu 2024-12-19 195200](https://github.com/user-attachments/assets/d8d5da31-468d-42dc-beb8-0ad13a2eff1f)
 
-All code used for the ETL process in Mage can be found in the "Mage" folder
+All code used for the ETL process in Mage can be found in the `mage` folder
 
 Create a new `analytics` table by running sql code from `sql_analytics.sql`
 
